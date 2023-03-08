@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
+  background: #e7eaf5;
   color: #444444;
 }
 
@@ -257,7 +257,7 @@ h6 {
 }
 
 .card-title span {
-  color: #899bbd;
+  color: #202a3b;
   font-size: 14px;
   font-weight: 400;
 }
@@ -323,12 +323,12 @@ h6 {
 .breadcrumb {
   font-size: 14px;
   font-family: "Nunito", sans-serif;
-  color: #899bbd;
+  color: #2a2e35;
   font-weight: 600;
 }
 
 .breadcrumb a {
-  color: #899bbd;
+  color: #2a2e35;
   transition: 0.3s;
 }
 
@@ -341,7 +341,7 @@ h6 {
 }
 
 .breadcrumb .active {
-  color: #51678f;
+  color: #2a2e35;
   font-weight: 600;
 }
 
@@ -377,6 +377,8 @@ h6 {
 @media (min-width: 1200px) {
   .logo {
     width: 280px;
+    display: flex;
+    align-items: center;
   }
 }
 
